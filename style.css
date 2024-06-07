@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    padding: 3rem 10rem;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+    background-color: pink;
+    font-weight: 400;
+}
+
+.nav ul {
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+}
+
+.nav ul li a {
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    background-color: pink;
+}
+
+.lower-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.info h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    background-color: pink;
+}
+
+.info h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    background-color: pink;
+}
+
+.info p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    background-color: pink;
+}
+
+.icon {
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.fa-brands {
+    width: 2rem;
+    height: 2rem;
+}
+
+.mobile {
+    background-color: white;
+    width: 20rem;
+    height: 32rem;
+    border-radius: 5% 5% 5% 5%;
+    padding: 2.5rem 1rem;
+}
+
+.screen {
+    background-color: black;
+    width: 18rem;
+    height: 27rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mobile-logo h2 {
+    color: yellow;
+    background-color: pink;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.button button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+
+}
+
+.active {
+    background-color: white;
+}
+
+.Features {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 8rem;
+}
+
+.upper-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.upper-info h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    background-color: pink;
+}
+
+.upper-info p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    background-color: pink;
+}
+
+.features-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-inline: 8rem;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 30%;
+}
+
+.fa-solid,
+.fa-regular {
+    width: 1.5rem;
+    height: 3rem;
+    background-color: pink;
+    text-align: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.details h3 {
+    font-size: 1.5rem;
+    background-color: pink;
+}
+
+.details p {
+    background-color: pink;
+    font-size: 0.8rem;
+}
+
+.footer {
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 8rem 2rem;
+}
+
+.upper-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.upper-info h2 {
+    color: yellow;
+    padding-inline: 1rem;
+}
+
+.upper-info p {
+    color: gray;
+    background-color: pink;
+}
+
+.subscription {
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.subscription input {
+    padding: 1.3rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    width: 40rem;
+}
+
+.subscription button {
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background-color: yellow;
+}
+
+.subscription button a {
+    color: black;
+    background-color: pink;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.fa-brands {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+.contect-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.address {
+    width: 8rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.address ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+}
+
+.address p {
+    background-color: pink;
+}
+
+.address ul li {
+    background-color: pink;
+}
